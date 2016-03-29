@@ -9,16 +9,25 @@ package fibonacci;
  *
  * @author Praktikum
  */
+public class fibonacci {
 
-public class Fibonacci {
-    public static long fib(int n) {
-        if (n <= 1) return n;
-        else return fib(n-1) + fib(n-2);
-    }
-
+    /**
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
-        int N = Integer.parseInt(args[0]);
-        for (int i = 1; i <= N; i++)
-            System.out.println(i + ": " + fib(i));
-    }
-}
+        // TODO code application logic here
+        
+		Scanner input = new Scanner(System.in);
+		int num1=0,num2=1,sum;
+		int count;
+		
+		System.out.println("Masukan angka: ");
+		int N = input.nextInt();
+		for (count = 1;count<= N; count++) { 
+		sum=num1+num2; 
+		num1=num2; 
+		num2=sum; 
+		System.out.print(" "+num1); 
+		} 
+		} 
+		} 
