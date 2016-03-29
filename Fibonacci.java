@@ -9,7 +9,7 @@ package fibonacci;
  *
  * @author Praktikum
  */
-public class fibonacci {
+public class fibonnacci {
 
     /**
      * @param args the command line arguments
